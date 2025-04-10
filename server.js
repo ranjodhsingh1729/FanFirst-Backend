@@ -48,9 +48,11 @@ app.use(passport.session());
 const authRoutes = require("./routes/auth");
 const oauthRoutes = require("./routes/oauth");
 const eventsRouter = require("./routes/events");
+const dashboardRouter = require("./routes/dashboard");
 app.use("/auth", authRoutes);
 app.use("/oauth", oauthRoutes);
 app.use("/events", eventsRouter);
+app.use("/dashboard", dashboardRouter);
 
 // Root Endpoint
 app.get("/", (req, res) => {
