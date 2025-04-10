@@ -1,0 +1,49 @@
+{
+  "create": {
+    "request": {
+      "tickets": [
+        {
+          "ticket": {
+            "userId": "string",
+            "eventId": "string",
+            "type": "priority",
+            "price": 200,
+            "isRedeemed": false
+          },
+          "count": 2
+        }
+      ],
+      "totalAmount": 400,
+      "currency": "USD",
+      "status": "pending",
+      "transactionDate": "2025-04-09T12:00:00Z",
+      "paymentReference": "string"
+    },
+    "response": {
+      "message": "Purchase created successfully",
+      "purchase": {
+        "_id": "string",
+        "userId": "string",
+        "eventId": "string",
+        "tickets": [
+          {
+            "ticket": {
+              "userId": "string",
+              "eventId": "string",
+              "type": "priority",
+              "price": 200,
+              "isRedeemed": false
+            },
+            "count": 2
+          }
+        ],
+        "totalAmount": 400,
+        "currency": "USD",
+        "status": "pending",
+        "transactionDate": "2025-04-09T12:00:00Z",
+        "paymentReference": "string",
+        "createdAt": "2025-04-09T12:00:00Z"
+      }
+    }
+  }
+}

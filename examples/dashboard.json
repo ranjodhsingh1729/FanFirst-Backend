@@ -1,0 +1,71 @@
+[
+  {
+    "response": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "streamingAccounts": [
+        {
+          "provider": "Spotify",
+          "accountId": "spotify_user_id",
+          "lastSynced": "2025-04-01T12:00:00Z"
+        },
+        {
+          "provider": "YouTube",
+          "accountId": "youtube_user_id",
+          "lastSynced": "2025-04-01T12:00:00Z"
+        }
+      ],
+      "engagementScore": 85,
+      "ticketsPurchased": [
+        {
+          "_id": "ticket_001",
+          "eventId": "evt_001",
+          "type": "priority",
+          "price": 200,
+          "purchaseDate": "2025-04-01T12:00:00Z",
+          "isRedeemed": false
+        }
+      ],
+      "registeredEvents": [
+        {
+          "_id": "evt_001",
+          "title": "Coldplay Live in Delhi",
+          "date": "2025-06-12",
+          "venue": "Delhi Stadium",
+          "artist": "Coldplay",
+          "description": "A live concert by Coldplay in Delhi.",
+          "totalTickets": 1000,
+          "generalTickets": 800,
+          "pricing": {
+            "priorityPrice": 200,
+            "generalPrice": 100
+          },
+          "salesOpen": true,
+          "location": {
+            "type": "Point",
+            "coordinates": [77.1025, 28.7041]
+          }
+        },
+        {
+          "_id": "evt_002",
+          "title": "Imagine Dragons India Tour",
+          "date": "2025-07-03",
+          "venue": "Mumbai Arena",
+          "artist": "Imagine Dragons",
+          "description": "Imagine Dragons performing live in Mumbai.",
+          "totalTickets": 1500,
+          "generalTickets": 1200,
+          "pricing": {
+            "priorityPrice": 250,
+            "generalPrice": 150
+          },
+          "salesOpen": false,
+          "location": {
+            "type": "Point",
+            "coordinates": [72.8777, 19.076]
+          }
+        }
+      ]
+    }
+  }
+]

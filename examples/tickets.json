@@ -1,0 +1,37 @@
+{
+  "priority": {
+    "request": {
+      "eventId": "string"
+    },
+    "response": [
+      {
+        "_id": "string",
+        "eventId": "string",
+        "type": "priority",
+        "price": 200,
+        "purchaseDate": "2025-04-09T12:00:00Z",
+        "isRedeemed": false
+      }
+    ]
+  },
+  "purchase": {
+    "request": {
+      "eventId": "string",
+      "userId": "string",
+      "ticketCount": 2,
+      "ticketType": "priority"
+    },
+    "response": {
+      "message": "Ticket purchased successfully",
+      "transaction": {
+        "_id": "string",
+        "user": "string",
+        "ticket": "string",
+        "amount": 400,
+        "currency": "USD",
+        "status": "completed",
+        "transactionDate": "2025-04-09T12:00:00Z"
+      }
+    }
+  }
+}

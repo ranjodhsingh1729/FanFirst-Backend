@@ -1,0 +1,79 @@
+{
+  "create": {
+    "request": {
+      "title": "Concert Name",
+      "date": "2025-05-01T19:00:00Z",
+      "venue": "Venue Name, City",
+      "artist": "Artist Name",
+      "description": "Event description",
+      "totalTickets": 1000,
+      "generalTickets": 800,
+      "pricing": {
+        "priorityPrice": 200,
+        "generalPrice": 100
+      },
+      "salesOpen": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [77.1025, 28.7041]
+      }
+    },
+    "response": {
+      "message": "Event created successfully",
+      "event": {
+        "_id": "string",
+        "title": "Concert Name",
+        "date": "2025-05-01T19:00:00Z",
+        "venue": "Venue Name, City",
+        "artist": "Artist Name",
+        "description": "Event description",
+        "totalTickets": 1000,
+        "generalTickets": 800,
+        "soldTickets": 0,
+        "pricing": {
+          "priorityPrice": 200,
+          "generalPrice": 100
+        },
+        "salesOpen": true,
+        "location": {
+          "type": "Point",
+          "coordinates": [77.1025, 28.7041]
+        },
+        "createdAt": "2025-04-09T12:00:00Z"
+      }
+    }
+  },
+  "upcoming": {
+    "response": [
+      {
+        "_id": "string",
+        "title": "Concert Name",
+        "date": "2025-05-01T19:00:00Z",
+        "venue": "Venue Name, City",
+        "artist": "Artist Name",
+        "description": "Event description",
+        "totalTickets": 1000,
+        "generalTickets": 800,
+        "soldTickets": 0,
+        "pricing": {
+          "priorityPrice": 200,
+          "generalPrice": 100
+        },
+        "salesOpen": true,
+        "location": {
+          "type": "Point",
+          "coordinates": [77.1025, 28.7041]
+        }
+      }
+    ]
+  },
+  "details": {
+    "response": {
+      "eventId": "string",
+      "name": "Concert Name",
+      "date": "2025-05-01T19:00:00Z",
+      "location": "Venue Name, City",
+      "artist": "Artist Name"
+    }
+  }
+}

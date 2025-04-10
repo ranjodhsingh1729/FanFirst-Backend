@@ -1,0 +1,39 @@
+{
+  "spotify": {
+    "response": {
+      "id": "spotify_user_id",
+      "accessToken": "spotify_access_token",
+      "refreshToken": "spotify_refresh_token",
+      "profile": {
+        "display_name": "Spotify User",
+        "email": "spotifyuser@example.com",
+        "followers": {
+          "total": 123
+        }
+      }
+    }
+  },
+  "appleMusic": {
+    "response": {
+      "id": "apple_music_user_id",
+      "accessToken": "apple_music_access_token",
+      "refreshToken": "apple_music_refresh_token",
+      "profile": {
+        "name": "Apple Music User",
+        "email": "applemusicuser@example.com"
+      }
+    }
+  },
+  "youtubeMusic": {
+    "response": {
+      "id": "youtube_music_user_id",
+      "accessToken": "youtube_music_access_token",
+      "refreshToken": "youtube_music_refresh_token",
+      "profile": {
+        "name": "YouTube Music User",
+        "email": "youtubemusicuser@example.com",
+        "subscriptions": ["Channel 1", "Channel 2"]
+      }
+    }
+  }
+}
